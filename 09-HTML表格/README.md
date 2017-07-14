@@ -73,12 +73,6 @@ cellspacing属性规定单元格之间的空白。
 
 ***
 
-### 表格的标题
-
-表格的标题使用\<caption>标签进行定义
-
-***
-
 ### 表格的表头
 
 表格的表头使用\<th>标签进行定义。
@@ -101,6 +95,32 @@ cellspacing属性规定单元格之间的空白。
     </table>
 ```
 
+***
+
+### 表格的标题
+
+表格的标题使用\<caption>标签进行定义
+    
+```html
+    <table border="1">
+        <caption>成绩表</caption>
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>99</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+    </table>
+```    
 ***
 
 ### 细线表格1 - border-collapse属性
